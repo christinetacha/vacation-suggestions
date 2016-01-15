@@ -1,0 +1,22 @@
+.jumbotron {
+   background: transparent !important;
+ }
+
+ img {
+-  width: 50%;
++  width: 25%;
++  height: auto;
++}
++
++.character {
++  width: 40%;
+   height: auto;
+ }
+
+ #result {
+   display: none;
+ }
+
+ ul{
+     list-style:none;
+}

@@ -7,11 +7,52 @@
     <script src="js/scripts.js"></script>
     <meta charset="utf-8">
     <meta name="description" content="Welcome to vacation finder, your guide to your next vacation"/>
-    <title>Where would you like to go on vacation?</title>
+    <title>Where will you go next?</title>
   </head>
   <body>
     <div class="container">
-        
+
+        <div class="jumbotron">
+          <h2>Where will you go next?</h2>
+        </div>
+
+        <h3>Answer these questions.</h3>
+
+      <form id="nextVacation">
+        <ul>
+          <li><label for="romAdv">Romance or nightlife?</label>
+          <select id="romAdv">
+            <option value="rom">Romance</option>
+            <option value="adv">Adventure</option>
+          </select>
+          <li><label for="familyFun">Family fun or nightlife?</label>
+          <select id="familyFun">
+            <option value="family">Family fun</option>
+            <option value="nightlife">nightlife</option>
+          </select>
+          <li><label for="skiBeach">Skiing or beaches?</label>
+          <select id="skiBeach">
+            <option value="ski">Skiing</option>
+            <option value="beaches">Beaches</option>
+          </select>
+          <li><label for="shop">Shopping or history?</label>
+          <select id="shop">
+            <option value="shopping">Shopping</option>
+            <option value="history">History</option>
+          </select>
+          <li><label for="casino">Do you like casinos?</label>
+          <select id="casino">
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+          </select>
+
+          <li><button type="submit" class="btn btn-danger">Choose my next vacation!</button></li>
+        </ul>
+      </form>
+
+      <div id="result">
+        <h4>You will be travelling to <span id="destination"></span></h4>
+      </div>
     </div>
 
   </body>

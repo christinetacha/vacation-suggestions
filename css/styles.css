@@ -1,5 +1,7 @@
 .jumbotron {
-   background: transparent !important;
+  text-align: center;
+  background-color: #99c2ff;
+  color: #994c00;
  }
 
  img {
@@ -19,4 +21,19 @@
 
  ul{
      list-style:none;
+     padding: 40px;
+}
+
+.row {
+  padding: 50px;
+}
+
+.floating {
+  display: inline-block;
+  float:right;
+  padding: 40px;
+}
+
+h3 {
+  padding-left: 43px;
 }

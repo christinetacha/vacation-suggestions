@@ -16,39 +16,47 @@
           <h2>Where will you go next?</h2>
         </div>
 
-        <h3>Answer these questions.</h3>
+      <div class="row">
+        <div class="col-md-6">
+          <h3>Answer these questions.</h3>
 
-      <form id="nextVacation">
-        <ul>
-          <li><label for="romAdv">Romance or nightlife?</label>
-          <select id="romAdv">
-            <option value="rom">Romance</option>
-            <option value="adv">Adventure</option>
-          </select>
-          <li><label for="familyFun">Family fun or nightlife?</label>
-          <select id="familyFun">
-            <option value="family">Family fun</option>
-            <option value="nightlife">nightlife</option>
-          </select>
-          <li><label for="skiBeach">Skiing or beaches?</label>
-          <select id="skiBeach">
-            <option value="ski">Skiing</option>
-            <option value="beaches">Beaches</option>
-          </select>
-          <li><label for="shop">Shopping or history?</label>
-          <select id="shop">
-            <option value="shopping">Shopping</option>
-            <option value="history">History</option>
-          </select>
-          <li><label for="casino">Do you like casinos?</label>
-          <select id="casino">
-            <option value="yes">Yes</option>
-            <option value="no">No</option>
-          </select>
+          <div class="floating">
+            <img src="https://www.nyu.edu/life/travel-and-transportation/jcr:content/doubleBox/nyuimage.img.png/1440523510494.png">
+          </div>
 
-          <li><button type="submit" class="btn btn-danger">Choose my next vacation!</button></li>
-        </ul>
-      </form>
+          <form id="nextVacation">
+            <ul>
+              <li><label for="romAdv">Romance or nightlife?</label>
+              <select id="romAdv">
+                <option value="rom">Romance</option>
+                <option value="adv">Adventure</option>
+              </select>
+              <li><label for="familyFun">Family fun or nightlife?</label>
+              <select id="familyFun">
+                <option value="family">Family fun</option>
+                <option value="nightlife">nightlife</option>
+              </select>
+              <li><label for="skiBeach">Skiing or beaches?</label>
+              <select id="skiBeach">
+                <option value="ski">Skiing</option>
+                <option value="beaches">Beaches</option>
+              </select>
+              <li><label for="shop">Shopping or history?</label>
+              <select id="shop">
+                <option value="shopping">Shopping</option>
+                <option value="history">History</option>
+              </select>
+              <li><label for="casino">Do you like casinos?</label>
+              <select id="casino">
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+              </select>
+
+              <li><button type="submit" class="btn btn-danger">Choose my next vacation!</button></li>
+            </ul>
+          </form>
+        </div>
+      </div>
 
       <div id="result">
         <h4>You will be travelling to <span id="destination"></span></h4>

@@ -8,7 +8,7 @@
    background-color: #e6b3ff;
  }*/
 
- img {
+ .plane {
 -  width: 50%;
 +  width: 25%;
 +  height: auto;
@@ -41,4 +41,8 @@
 
 h3 {
   padding-left: 43px;
+}
+
+img {
+  margin-bottom: auto;
 }

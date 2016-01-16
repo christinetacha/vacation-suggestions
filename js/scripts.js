@@ -15,7 +15,11 @@ $(document).ready(function() {
         $("#destination").empty().append("Maui, Hawaii");
         $("#result").show();
         $("#seeResult").show();
-      } 
+      } else if (age < 40 && romanceOrAdventure === "adventure" && familyFun === "family" && skiBeach === "beaches" && shop === "history" && casino === "no") {
+        $("#destination").empty().append("Orlando, Florida");
+        $("#result").show();
+        $("#seeResult").show();
+      }
 
 
 

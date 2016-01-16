@@ -2,15 +2,17 @@
   text-align: center;
   background-color: #99c2ff;
   color: #994c00;
+  background-image: url(http://images.summitpost.org/original/242244.jpg);
+  width: 100%;
  }
 
- /*body {
-   background-color: #e6b3ff;
- }*/
+ body {
+   font-family: monospace;
+ }
 
- .plane {
--  width: 50%;
-+  width: 25%;
+ .planePic {
+-  width: auto;
++  width: auto;
 +  height: auto;
 +}
 +
@@ -26,6 +28,7 @@
  ul{
      list-style:none;
      padding: 40px;
+     font-size: 15px;
 }
 
 .row {
@@ -45,4 +48,5 @@ h3 {
 
 img {
   margin-bottom: auto;
+  padding-right: 40px;
 }
